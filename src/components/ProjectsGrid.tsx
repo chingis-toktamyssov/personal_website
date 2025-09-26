@@ -7,8 +7,8 @@ import projectPlaceholder4 from "@/assets/project-placeholder-4.jpg";
 // Sample project data - replace with your actual projects
 const projects = [
   {
-    title: "Project Title 1",
-    description: "This is a placeholder for your first project description. Replace this with a detailed explanation of what the project does, the technologies used, challenges overcome, and what makes it special. You can include information about the problem it solves and the impact it has.",
+    title: "Digital Clock",
+    description: "A gift for a friend. Built with plywood, 3D printed parts, and a custom designed PCB. Runs on an Arduino Nano; the rest of the parts and schematics are included in the document attached. Art is inspired by the show Arcane and is done by a friend.",
     githubUrl: "https://github.com/yourusername/project1",
     demoUrl: "https://your-project-demo.com",
     videoUrl: "https://youtube.com/watch?v=your-video",
@@ -43,11 +43,11 @@ const ProjectsGrid = () => {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            Featured Projects
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent" style={{lineHeight: '1.4'}}> 
+            Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my recent work and personal projects
+            A showcase of my recent work.
           </p>
         </div>
         
