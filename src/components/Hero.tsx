@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-primary opacity-5" />
       <div className="container mx-auto px-4 text-center relative">
         <div className="animate-float">
-          <h1 className="text-5xl lg:text-7xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent" style={{lineHeight: '1.2'}}>
+          <h1 className="text-5xl lg:text-7xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent" style={{lineHeight: '1.4'}}>
             Chingis Toktamyssov
           </h1>
           <p className="text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
