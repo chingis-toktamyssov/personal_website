@@ -13,9 +13,17 @@ const Hero = () => {
             I'm an 18 year old computer engineering undergrad at University of Ottawa. I'm particularly interested in electronics and competitive programming.
           </p>
           <div className="flex flex-col items-center gap-6">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              LeetCode Profile
-            </Button>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+                LeetCode
+              </Button>
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+                GitHub
+              </Button>
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+                LinkedIn
+              </Button>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-lg text-muted-foreground">
               <span>343-204-0702</span>
               <span>coktamyssovthingis@gmail.com</span>
