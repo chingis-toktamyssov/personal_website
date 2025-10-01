@@ -14,14 +14,20 @@ const Hero = () => {
           </p>
           <div className="flex flex-col items-center gap-6">
             <div className="flex flex-wrap justify-center gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-                LeetCode
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
+                <a href="https://leetcode.com/placeholder" target="_blank" rel="noopener noreferrer">
+                  LeetCode
+                </a>
               </Button>
-              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-                GitHub
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
+                <a href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                </a>
               </Button>
-              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-                LinkedIn
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
+                <a href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
               </Button>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-lg text-muted-foreground">
