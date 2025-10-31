@@ -53,7 +53,7 @@ const ProjectCard = ({
             <Button variant="secondary" size="sm" asChild className="flex items-center gap-2">
               <a href={demoUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="w-4 h-4" />
-                Live Demo
+                Parts, Schematics and Pictures
               </a>
             </Button>
           )}
