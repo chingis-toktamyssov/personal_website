@@ -1,10 +1,9 @@
 import ProjectCard from "./ProjectCard";
-import projectPlaceholder1 from "@/assets/project-placeholder-1.jpg";
-import projectPlaceholder2 from "@/assets/project-placeholder-2.jpg";
 import projectPlaceholder3 from "@/assets/project-placeholder-3.jpg";
 import projectPlaceholder4 from "@/assets/project-placeholder-4.jpg";
 import pdfDigitalClock from "@/assets/digital_clock parts, schematics, and pictures.pdf";
 import imageDigitalClock from "@/assets/digital_clock.jpg";
+import imageScholarshipScraper from "@/assets/scholarship_scraper.jpg";
 
 // Sample project data - replace with your actual projects
 const projects = [
@@ -17,11 +16,11 @@ const projects = [
     imageUrl: imageDigitalClock,
   },  
   {
-    title: "Project Title 2",
-    description: "This is a placeholder for your second project description. Share the story behind this project, the technical decisions you made, and the results you achieved. Mention any interesting features, performance optimizations, or user experience improvements you implemented.",
-    githubUrl: "https://github.com/yourusername/project2",
-    demoUrl: "https://your-project2-demo.com",
-    imageUrl: projectPlaceholder2,
+    title: "Scholarship Scraper",
+    description: "A simple web scraper built with Selenium and PyPDF. It filters out potential scholarships that do not apply to me, drastically saving me time.",
+    githubUrl: "https://github.com/chingis-toktamyssov/scholarship_scraper",
+    videoUrl: "https://drive.google.com/file/d/1FdBabiGSe-HAKBf5c2rW8q7XSI06SE5G/view?usp=sharing",
+    imageUrl: imageScholarshipScraper,
   },
   {
     title: "Project Title 3",
