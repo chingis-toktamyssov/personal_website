@@ -1,1 +1,1 @@
-clanker slop
+my personal website - lowkey just a bunch of a clanker slop
