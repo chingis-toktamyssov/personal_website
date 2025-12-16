@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/chingis-toktamyssov/personal_website",
+  "homepage": "https://chingis-toktamyssov.github.io/personal_website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
