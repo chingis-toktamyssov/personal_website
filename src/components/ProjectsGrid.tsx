@@ -5,6 +5,7 @@ import projectPlaceholder3 from "@/assets/project-placeholder-3.jpg";
 import projectPlaceholder4 from "@/assets/project-placeholder-4.jpg";
 import pdfDigitalClock from "@/assets/digital_clock parts, schematics, and pictures.pdf";
 import imageDigitalClock from "@/assets/digital_clock.jpg";
+import imageCardDetection from "@/assets/imageCardDetection.jpg";
 
 // Sample project data - replace with your actual projects
 const projects = [
@@ -17,11 +18,11 @@ const projects = [
     imageUrl: imageDigitalClock,
   },  
   {
-    title: "Project Title 2",
-    description: "This is a placeholder for your second project description. Share the story behind this project, the technical decisions you made, and the results you achieved. Mention any interesting features, performance optimizations, or user experience improvements you implemented.",
-    githubUrl: "https://github.com/yourusername/project2",
-    demoUrl: "https://your-project2-demo.com",
-    imageUrl: projectPlaceholder2,
+    title: "Card Detection",
+    description: "Detects playing cards in real-time using a webcam, using YOLOv8 for object detection and OpenCV for video capture and visualization. It is designed for poker applications where you want live recognition of cards.",
+    githubUrl: "https://github.com/chingis-toktamyssov/card_identify",
+    imageUrl: imageCardDetection,
+    videoUrl: "https://drive.google.com/file/d/1_K0WYndRhjotTptOazy-vGoKWBdjlX__/view?usp=sharing",
   },
   {
     title: "Project Title 3",
