@@ -22,7 +22,7 @@ const projects = [
     description: "Detects playing cards in real-time using a webcam, using YOLOv8 for object detection and OpenCV for video capture and visualization. It is designed for poker applications where you want live recognition of cards.",
     githubUrl: "https://github.com/chingis-toktamyssov/card_identify",
     imageUrl: imageCardDetection,
-    videoUrl: "https://drive.google.com/file/d/1_K0WYndRhjotTptOazy-vGoKWBdjlX__/view?usp=sharing",
+    videoUrl: "https://drive.google.com/file/d/1-OzfzggRREseB82duXYjKk213Hisa6LP/view?usp=sharing",
   },
   {
     title: "Project Title 3",
